@@ -140,7 +140,7 @@ COPY 20-envsubst-on-templates.sh /docker-entrypoint.d
 COPY nginx.conf /etc/nginx/
 COPY default.conf /etc/nginx/conf.d/
 
-COPY index.html /etc/nginx/html/
+# COPY index.html /etc/nginx/html/
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
